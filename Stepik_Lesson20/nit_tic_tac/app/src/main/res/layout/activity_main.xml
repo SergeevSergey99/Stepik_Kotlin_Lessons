@@ -22,6 +22,7 @@
                 android:id="@+id/spinner11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:entries="@array/values"
                 android:minWidth="80dp"
                 android:minHeight="80dp" />
 
@@ -29,6 +30,7 @@
                 android:id="@+id/spinner12"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:entries="@array/values"
                 android:minWidth="80dp"
                 android:minHeight="80dp" />
 
@@ -36,6 +38,7 @@
                 android:id="@+id/spinner13"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:entries="@array/values"
                 android:minWidth="80dp"
                 android:minHeight="80dp" />
         </TableRow>
@@ -48,6 +51,7 @@
                 android:id="@+id/spinner21"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:entries="@array/values"
                 android:minWidth="80dp"
                 android:minHeight="80dp" />
 
@@ -55,6 +59,7 @@
                 android:id="@+id/spinner22"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:entries="@array/values"
                 android:minWidth="80dp"
                 android:minHeight="80dp" />
 
@@ -62,6 +67,7 @@
                 android:id="@+id/spinner23"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:entries="@array/values"
                 android:minWidth="80dp"
                 android:minHeight="80dp" />
         </TableRow>
@@ -74,6 +80,7 @@
                 android:id="@+id/spinner31"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:entries="@array/values"
                 android:minWidth="80dp"
                 android:minHeight="80dp" />
 
@@ -81,6 +88,7 @@
                 android:id="@+id/spinner32"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:entries="@array/values"
                 android:minWidth="80dp"
                 android:minHeight="80dp" />
 
@@ -88,6 +96,7 @@
                 android:id="@+id/spinner33"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:entries="@array/values"
                 android:minWidth="80dp"
                 android:minHeight="80dp" />
         </TableRow>
