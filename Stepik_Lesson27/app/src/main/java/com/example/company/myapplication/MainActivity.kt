@@ -12,5 +12,16 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        var data = MutableList(11, { x -> "${x * x}" })
+
+        val adapter = ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, data)
+
+        listView.adapter = adapter
+
+        listView.setOnItemClickListener { parent, view, position, id ->
+            adapter.remove((view as TextView).text.toString())
+            adapter.notifyDataSetChanged()
+        }
+
     }
 }
